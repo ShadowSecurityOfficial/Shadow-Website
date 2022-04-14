@@ -601,10 +601,10 @@ input, select, textarea {
 		}
 
 			#header nav li {
-				-moz-animation: nav-icons 0.5s ease-in-out forwards;
-				-webkit-animation: nav-icons 0.5s ease-in-out forwards;
-				-ms-animation: nav-icons 0.5s ease-in-out forwards;
-				animation: nav-icons 0.5s ease-in-out forwards;
+				-moz-animation: nav-icons 0.3s ease-in-out forwards;
+				-webkit-animation: nav-icons 0.3s ease-in-out forwards;
+				-ms-animation: nav-icons 0.3s ease-in-out forwards;
+				animation: nav-icons 0.3s ease-in-out forwards;
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
