@@ -101,7 +101,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		html.fonts-loaded .header {
+		html.fonts-loaded {
 		  font-family: 'Source Sans Pro', sans-serif;
 		}
 		font-size: 15pt;
@@ -141,7 +141,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			html.fonts-loaded .icon {
+			html.fonts-loaded {
 			  font-family: 'Font Awesome 5 Free';
 			}
 			font-weight: 400;
@@ -156,7 +156,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			html.fonts-loaded .icon {
+			html.fonts-loaded {
 			  font-family: 'Font Awesome 5 Brands';
 			}
 		}
