@@ -101,9 +101,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		html.fonts-loaded {
-		  font-family: 'Source Sans Pro', sans-serif;
-		}
+		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -141,9 +139,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			html.fonts-loaded {
-			  font-family: 'Font Awesome 5 Free';
-			}
+			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
 		}
 
