@@ -14,7 +14,7 @@ https://sourceforge.net/
 https://pages.cloudflare.com/
 https://www.pwabuilder.com/
 https://realfavicongenerator.net/
-https://web.dev/measure/
+https://gtmetrix.com/
 https://allthefreestock.com/
 ```
 # Requesting a feature
