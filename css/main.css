@@ -198,10 +198,10 @@ input, select, textarea {
 	}
 
 	#wrapper {
-		-moz-animation: wrapper 3s forwards;
-		-webkit-animation: wrapper 3s forwards;
-		-ms-animation: wrapper 3s forwards;
-		animation: wrapper 3s forwards;
+		-moz-animation: wrapper 2s forwards;
+		-webkit-animation: wrapper 2s forwards;
+		-ms-animation: wrapper 2s forwards;
+		animation: wrapper 2s forwards;
 		height: 100%;
 		left: 0;
 		opacity: 0;
@@ -377,10 +377,10 @@ input, select, textarea {
 	}
 
 	#overlay {
-		-moz-animation: overlay 0.7s 9.7s forwards;
-		-webkit-animation: overlay 0.7s 0.7s forwards;
-		-ms-animation: overlay 0.7s 0.7s forwards;
-		animation: overlay 0.7s 0.7s forwards;
+		-moz-animation: overlay 1.5s 1.5s forwards;
+		-webkit-animation: overlay 1.5s 1.5s forwards;
+		-ms-animation: overlay 1.5s 1.5s forwards;
+		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
 		background-image: url("../assets/bg.jpg/overlay-pattern.png"), url("../assets/bg.jpg/overlay.svg");
 		background-position: top left, center center;
