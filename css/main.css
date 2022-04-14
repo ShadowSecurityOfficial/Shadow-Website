@@ -623,10 +623,10 @@ input, select, textarea {
 			}
 
 				#header nav li:nth-child(1) {
-					-moz-animation-delay: 0.5s;
-					-webkit-animation-delay: 1.5s;
-					-ms-animation-delay: 1.5s;
-					animation-delay: 1.5s;
+					-moz-animation-delay: 0.50s;
+					-webkit-animation-delay: 0.50s;
+					-ms-animation-delay: 0.50s;
+					animation-delay: 0.50s;
 				}
 
 				#header nav li:nth-child(2) {
