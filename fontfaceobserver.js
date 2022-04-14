@@ -1,10 +1,12 @@
 <script type="text/javascript">
-  const pacificoObserver = new FontFaceObserver('Pacifico');
-  const robotoObserver = new FontFaceObserver('Roboto');
+  const sourcesansproObserver = new FontFaceObserver('Source Sans Pro');
+  const fontawesome5freeObserver = new FontFaceObserver('Font Awesome 5 Free');
+  const fontawesome5brandsObserver = new FontFaceObserver('Font Awesome 5 Brands');
 
   Promise.all([
-    pacificoObserver.load(),
-    robotoObserver.load()
+    sourcesansproObserver.load(),
+    fontawesome5freeObserver.load()
+    fontawesome5brandsObserver.load()
   ]).then(function(){
     document.documentElement.className += " fonts-loaded";
   });
