@@ -561,10 +561,10 @@ input, select, textarea {
 	}
 
 	#header {
-		-moz-animation: header 0.25s 0.50s forwards;
-		-webkit-animation: header 0.25s 0.50s forwards;
-		-ms-animation: header 0.25s 0.50s forwards;
-		animation: header 0.25s 0.50s forwards;
+		-moz-animation: header 0.10s 0.10s forwards;
+		-webkit-animation: header 0.10s 0.10s forwards;
+		-ms-animation: header 0.10s 0.10s forwards;
+		animation: header 0.10s 0.10s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
