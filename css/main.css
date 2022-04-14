@@ -1220,3 +1220,5 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+.icon.brands:before { font-size: 100px; text-decoration: none; }
