@@ -198,10 +198,10 @@ input, select, textarea {
 	}
 
 	#wrapper {
-		-moz-animation: wrapper 1s forwards;
-		-webkit-animation: wrapper 1s forwards;
-		-ms-animation: wrapper 1s forwards;
-		animation: wrapper 1s forwards;
+		-moz-animation: wrapper 0.5s forwards;
+		-webkit-animation: wrapper 0.5s forwards;
+		-ms-animation: wrapper 0.5s forwards;
+		animation: wrapper 0.5s forwards;
 		height: 100%;
 		left: 0;
 		opacity: 0;
