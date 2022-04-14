@@ -156,9 +156,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			html.fonts-loaded {
-			  font-family: 'Font Awesome 5 Brands';
-			}
+			font-family: 'Font Awesome 5 Brands';
 		}
 
 /* Wrapper */
