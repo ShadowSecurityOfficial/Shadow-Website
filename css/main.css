@@ -377,10 +377,10 @@ input, select, textarea {
 	}
 
 	#overlay {
-		-moz-animation: overlay 0.5s 0.5s forwards;
-		-webkit-animation: overlay 0.5s 0.5s forwards;
-		-ms-animation: overlay 0.5s 0.5s forwards;
-		animation: overlay 0.5s 0.5s forwards;
+		-moz-animation: overlay 1s 1s forwards;
+		-webkit-animation: overlay 1s 1s forwards;
+		-ms-animation: overlay 1s 1s forwards;
+		animation: overlay 1s 1s forwards;
 		background-attachment: fixed, fixed;
 		background-image: url("../assets/bg.jpg/overlay-pattern.png"), url("../assets/bg.jpg/overlay.svg");
 		background-position: top left, center center;
