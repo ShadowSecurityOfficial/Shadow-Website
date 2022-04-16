@@ -1223,8 +1223,8 @@ input, select, textarea {
 		} }
 
 /* 
-i.icon.brands.fa-github::before { font-size: 50px;}
-i.icon.solid.fe-music::before { font-size: 50px;}
+.i.icon.brands.fa-github::before { font-size: 50px;}
+.i.icon.solid.fe-music::before { font-size: 50px;}
 */
 
 {
