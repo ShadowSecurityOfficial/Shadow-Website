@@ -46,7 +46,7 @@ function main_init() {
     texture.minFilter = THREE.LinearMipMapLinearFilter;
 
     // preparing fog
-    var fog = new THREE.Fog(0x251d32, - 100, 5000);
+    var fog = new THREE.Fog(0xFFFFFF, - 100, 50000);
 
     // preparing material
     meshMaterial = new THREE.MeshShaderMaterial({
