@@ -1,3 +1,6 @@
+// script-tutorials.com | @script-tutorials
+// Copyright (c) 2022 CY83R-3X71NC710N
+
 // inner variables
 var canvas, ctx;
 var camera, scene, renderer, meshMaterial, mesh, geometry, i, f;
