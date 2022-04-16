@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="css/main.css" />
         	<script src="js/ThreeWebGL.js"></script>
         	<script src="js/ThreeExtras.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
 		<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -93,10 +94,5 @@
                 gl_FragColor = mix( gl_FragColor, vec4( fogColor, gl_FragColor.w ), fogFactor );
             }
         </script>
-
-        <div class="container">
-            <canvas id="panel" width="10" height="1"></canvas>
-        </div>
-        <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
