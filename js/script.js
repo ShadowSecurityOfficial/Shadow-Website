@@ -59,7 +59,7 @@ function main_init() {
         },
         vertexShader: document.getElementById('vs').textContent,
         fragmentShader: document.getElementById('fs').textContent,
-        depthTest: false
+        depthTest: true
     });
 
     // preparing planeMesh
@@ -82,7 +82,7 @@ function main_init() {
     scene.addObject(mesh);
 
     // preparing new renderer and drawing it
-    renderer = new THREE.WebGLRenderer({ antialias: false });
+    renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
 
