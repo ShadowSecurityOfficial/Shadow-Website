@@ -92,7 +92,7 @@ function main_init() {
     // change canvas size on resize
     window.addEventListener('resize', onResize, false);
 
-    setInterval(drawScene, 1); // loop drawScene
+    setInterval(drawScene, 30); // loop drawScene
 }
 
 function onMousemove(event) {
