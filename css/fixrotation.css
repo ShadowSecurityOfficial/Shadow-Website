@@ -12,3 +12,5 @@ HTML, BODY, CANVAS {
     /* cosmetic stuff: */
     background-color:#ffffff00;
 }
+
+UIScrollview.contentInsetAdjustmentBehavior = .never
