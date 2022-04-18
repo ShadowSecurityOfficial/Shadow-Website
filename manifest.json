@@ -61,6 +61,5 @@
     "background_color": "#ffffff",
     "start_url": "https://shadowsecuritysuite.pages.dev",
     "display": "standalone",
-    "orientation": "landscape",
     "description": "ShadowSecuritySuite is a Cybersecurity and Computer Science ecosystem."
 }
