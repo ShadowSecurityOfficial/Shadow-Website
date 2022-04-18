@@ -16,6 +16,7 @@ https://www.pwabuilder.com/
 https://realfavicongenerator.net/
 https://gtmetrix.com/
 https://allthefreestock.com/
+https://stackexchange.com/
 ```
 # Requesting a feature
 
