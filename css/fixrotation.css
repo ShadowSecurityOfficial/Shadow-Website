@@ -9,12 +9,6 @@ HTML, BODY, CANVAS {
     bottom:0;
     padding:0;
     margin:0;
-    position:absolute;
-    object-fit: contain;
-    aspect-ratio: auto;
-    background-size: cover;
-  /* if you want the content to scroll normally: */
-    overflow: auto;
     /* cosmetic stuff: */
     background-color:#ffffff00;
 }
