@@ -9,5 +9,4 @@ HTML, BODY, CANVAS {
     overflow: hidden !important; 
     /* cosmetic stuff: */
     background-color:#ffffff00 !important; 
-    background-size: cover !important;
 }
