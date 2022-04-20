@@ -4,11 +4,7 @@ HTML, BODY, CANVAS {
     height: 100vh !important; 
     width: 100vw !important; 
     margin:0 !important; 
-    padding:
-        env(safe-area-inset-top, 0px)
-        env(safe-area-inset-right, 0px)
-        env(safe-area-inset-bottom, 0px)
-        env(safe-area-inset-left, 0px) !important;
+    padding: 0 !important;
     /* required to prevent rogue scrollbars */
     overflow: hidden !important; 
     /* cosmetic stuff: */
