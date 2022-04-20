@@ -1,16 +1,17 @@
 HTML, BODY, CANVAS {
-    min-height: 100%;
-    min-width: 100%;
-    min-height: 100vh;
-    min-width: 100vw;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    padding:0;
-    margin:0;
+    height: 100% !important; 
+    width: 100% !important; 
+    height: 100vh !important; 
+    width: 100vw !important; 
+    margin:0 !important; 
+    padding:
+        env(safe-area-inset-top, 0px)
+        env(safe-area-inset-right, 0px)
+        env(safe-area-inset-bottom, 0px)
+        env(safe-area-inset-left, 0px) !important;
+    /* required to prevent rogue scrollbars */
+    overflow: hidden !important; 
     /* cosmetic stuff: */
+    background-size: cover !important;
     background-color:#ffffff00;
 }
-
-UIScrollview.contentInsetAdjustmentBehavior = .never
