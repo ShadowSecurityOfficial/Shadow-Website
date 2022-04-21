@@ -15,6 +15,7 @@ https://pages.cloudflare.com/
 https://www.pwabuilder.com/
 https://realfavicongenerator.net/
 https://gtmetrix.com/
+https://ezgif.com/
 https://allthefreestock.com/
 https://stackexchange.com/
 ```
