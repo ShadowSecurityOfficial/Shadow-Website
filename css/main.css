@@ -1233,7 +1233,7 @@ i.icon.solid.fa-music::before { font-size: 50px;}
 body {
     color:#fff;
     font:14px/1.3 Arial,sans-serif;
-    background-image: url(../assets/sky.mp4) loop center center fixed;
+    background-image: url(../assets/sky.mp4) playsinline autoplay muted loop center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
