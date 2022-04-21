@@ -1233,7 +1233,7 @@ i.icon.solid.fa-music::before { font-size: 50px;}
 body {
     color:#fff;
     font:14px/1.3 Arial,sans-serif;
-    background-image: url(../assets/sky.gif);
+    background-image: url(../assets/sky.gif) no-repeat;
     background-size: cover;
 }
 
