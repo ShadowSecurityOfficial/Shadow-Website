@@ -17,6 +17,7 @@ https://realfavicongenerator.net/
 https://gtmetrix.com/
 https://allthefreestock.com/
 https://stackexchange.com/
+https://www.gitkraken.com/
 ```
 # Requesting a feature
 
