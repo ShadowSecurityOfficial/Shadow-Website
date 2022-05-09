@@ -1,7 +1,5 @@
-$(window).on('orientationchange', function(e) {
-     $.mobile.changePage(window.location.href, {
-        allowSamePageTransition: true,
-        transition: 'none',
-        reloadPage: true
-    });
-});
+<script type="text/javascript">
+window.addEventListener("orientationchange", function() {
+        console.log(screen.orientation);
+}, false);
+</script>
