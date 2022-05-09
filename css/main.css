@@ -1244,9 +1244,13 @@ canvas {
     left:0;
     z-index: -1;
 }
-.bars-and-stuff{
+.bars-and-stuff {
     left:66.6%;
     z-index: -1;
+}
+
+.hacker-3d-shiz {
+    z-index: -1
 }
 
 .output-console {
