@@ -258,7 +258,7 @@ setTimeout(function(){
           squares.push(new Square(-300 + (i * 200)));
       }
   
-      ctx.strokeStyle = ctxBars.strokeStyle = ctxBars.fillStyle = '#252324';
+      ctx.strokeStyle = ctxBars.strokeStyle = ctxBars.fillStyle = '#51ff0d';
   
       render();
       consoleOutput();
@@ -277,5 +277,5 @@ window.addEventListener('resize', function(){
       focal = canvas.width / 2;
       vpx = canvas.width / 2;
       vpy = canvas.height / 2;
-      ctx.strokeStyle = ctxBars.strokeStyle = ctxBars.fillStyle = '#252324';
+      ctx.strokeStyle = ctxBars.strokeStyle = ctxBars.fillStyle = '#51ff0d';
 });
