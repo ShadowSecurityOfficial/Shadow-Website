@@ -1242,26 +1242,26 @@ canvas {
     position:absolute;
     top:0;
     left:0;
-    z-index: -1;
+    z-index: -2;
 }
 .bars-and-stuff {
     left:66.6%;
-    z-index: -1;
+    z-index: -2;
 }
 
 .hacker-3d-shiz {
-    z-index: -1
+    z-index: -2
 }
 
 .output-console {
     position:fixed;
     overflow:hidden;
-    z-index: -1;
+    z-index: -2;
 }
 
 h1 {
    margin:0;
-   z-index: -1;
+   z-index: -2;
    color: white;
 }
 
@@ -1288,4 +1288,13 @@ i.icon.brands.fa-github::before {
 i.icon.solid.fa-music::before { 
    font-size: 50px;
    color: white;
+}
+
+{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    height:1px;
 }
