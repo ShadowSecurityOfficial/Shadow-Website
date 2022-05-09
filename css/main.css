@@ -2,7 +2,6 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	Aerial by HTML5 UP
 	html5up.net | @ajlkn under CCA 3.0 license
 	Copyright (c) 2022 CY83R-3X71NC710N
 	Copyright (c) 2022 by Chase Kaiser (https://codepen.io/chasekaiser/pen/ogXmOK)
@@ -1264,6 +1263,7 @@ p2 {
 margin:0;
 z-index: -1;
 color: white;
+font-size: large;
 }
 
 i.icon.brands.fa-github::before { 
