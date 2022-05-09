@@ -1,10 +1,9 @@
 <!DOCTYPE HTML>
 <!--
 	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	script-tutorials.com | @script-tutorials
+	html5up.net | @ajlkn under CCA 3.0 license
+	Copyright (c) 2022 by Chase Kaiser (https://codepen.io/chasekaiser/pen/ogXmOK)
 	Copyright (c) 2022 CY83R-3X71NC710N
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html lang="en">
 <html>
@@ -49,7 +48,7 @@
 				<!-- Header -->
 					<header id="header">
 						<h1>ShadowSecuritySuite</h1>
-						<p>Cybersecurity &nbsp;&bull;&nbsp; Computer Science &nbsp;&bull;&nbsp; Ethical Hacking</p>
+						<p2>Cybersecurity &nbsp;&bull;&nbsp; Computer Science &nbsp;&bull;&nbsp; Ethical Hacking</p2>
 						<nav>
 							<ul>
 								<li><a href="https://github.com/CY83R-3X71NC710N" target="_blank aria-label="CY83R-3X71NC710N GitHub"><i class="icon brands fa-github"></i></a></li>
@@ -75,31 +74,9 @@
 
 <html>
     <body>
-        <script id="vs" type="x-shader/x-vertex">
-            varying vec2 vUv;
-            void main() {
-                vUv = uv;
-                gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
-            }
-        </script>
-        <script id="fs" type="x-shader/x-fragment">
-            uniform sampler2D map;
-            uniform vec3 fogColor;
-            uniform float fogNear;
-            uniform float fogFar;
-            varying vec2 vUv;
-            void main() {
-                float depth = gl_FragCoord.z / gl_FragCoord.w;
-                float fogFactor = smoothstep( fogNear, fogFar, depth );
-                gl_FragColor = texture2D( map, vUv );
-                gl_FragColor.w *= pow( gl_FragCoord.z, 20.0 );
-                gl_FragColor = mix( gl_FragColor, vec4( fogColor, gl_FragColor.w ), fogFactor );
-            }
-        </script>
-
-        <div class="container">
-            <canvas id="panel" width="10" height="1"></canvas>
-        </div>
-        <script type="text/javascript" src="js/script.js"></script>
+	<canvas class='hacker-3d-shiz'></canvas>
+	<canvas class='bars-and-stuff'></canvas>
+	<div class="output-console"></div>
+        <script  src="js/script.js"></script>
     </body>
 </html>
