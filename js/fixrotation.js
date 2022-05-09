@@ -1,5 +1,5 @@
 window.onorientationchange = function()
 {
-   document.getElementById("BODY").style.display = "none";
+   document.getElementById("body").style.display = "none";
    window.location.reload();
 }
