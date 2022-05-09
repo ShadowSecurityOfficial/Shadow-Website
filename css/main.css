@@ -1231,7 +1231,6 @@ input, select, textarea {
 body {
     font-family: Source Code Pro;
     background:#000;
-    background-image: url(../assets/background.webp);
     background-size: cover;
     color: #FF0000;
     margin:0;
