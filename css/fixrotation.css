@@ -1,4 +1,4 @@
-HTML, BODY, CANVAS {
+HTML, BODY, CANVAS, p, .output-console, .bars-and-stuff {
     height: 100% !important; 
     width: 100% !important; 
     height: 100vh !important; 
