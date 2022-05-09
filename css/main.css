@@ -2,9 +2,11 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	html5up.net | @ajlkn under CCA 3.0 license
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
 	Copyright (c) 2022 CY83R-3X71NC710N
-	Copyright (c) 2022 by Chase Kaiser (https://codepen.io/chasekaiser/pen/ogXmOK)
+	script-tutorials.com | @script-tutorials
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 html, body, div, span, applet, object,
@@ -1220,66 +1222,21 @@ input, select, textarea {
 			padding: 0 1em;
 		} }
 
-@font-face {
-  font-family: 'Source Code Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcecodepro/v4/mrl8jkM18OlOQN8JLgasDxM0YzuT7MdOe03otPbuUS0.woff) format('woff');
+i.icon.brands.fa-github::before { font-size: 50px;}
+i.icon.solid.fa-music::before { font-size: 50px;}
+
+{
+    margin:0;
+    padding:0;
 }
 
 body {
-    font-family: Source Code Pro;
-    background:#87CEEB;
+    color:#fff;
+    font:14px/1.3 Arial,sans-serif;
+    background-image: url(../assets/sky.webp);
     background-size: cover;
-    color: #252324;
-    margin:0;
-    font-size: 13px;
-    z-index: -1;
-}
-canvas {
-    position:absolute;
-    top:0;
-    left:0;
-    z-index: -1;
-}
-.bars-and-stuff{
-    left:66.6%;
-    z-index: -1;
 }
 
-.output-console {
-    position:fixed;
-    overflow:hidden;
-    z-index: -1;
-}
-
-h1 {
-   margin:0;
-   z-index: -1;
-   color: white;
-}
-
-p {
-   margin:0;
-}
-
-p2 {
-   margin:0;
-   z-index: -1;
-   color: white;
-   font-size: medium;
-}
-
-span.copyright {
-   color: white;
-}
-
-i.icon.brands.fa-github::before { 
-   font-size: 50px;
-   color: white;
-}
-
-i.icon.solid.fa-music::before { 
-   font-size: 50px;
-   color: white;
+.container {
+    height:1px;
 }
