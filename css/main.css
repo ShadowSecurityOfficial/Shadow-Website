@@ -1259,11 +1259,15 @@ z-index: -1;
 color: white;
 }
 
+p {
+margin:0;
+}
+
 p2 {
 margin:0;
 z-index: -1;
 color: white;
-font-size: large;
+font-size: xx-small;
 }
 
 i.icon.brands.fa-github::before { 
