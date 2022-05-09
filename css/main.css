@@ -1236,7 +1236,7 @@ body {
     color: #51ff0d;
     margin:0;
     font-size: 13px;
-    z-index: -2;
+    z-index: -1;
 }
 canvas {
     position:absolute;
@@ -1250,7 +1250,7 @@ canvas {
 }
 
 .hacker-3d-shiz {
-    z-index: -2
+    z-index: -2;
 }
 
 .output-console {
