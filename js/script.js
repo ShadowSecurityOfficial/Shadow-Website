@@ -75,11 +75,11 @@ function main_init() {
     }
 
     mesh = new THREE.Mesh(geometry, meshMaterial);
-    scene.addObject(mesh);
+    scene.add(mesh);
 
     mesh = new THREE.Mesh(geometry, meshMaterial);
     mesh.position.z = - 10000;
-    scene.addObject(mesh);
+    scene.add(mesh);
 
     // preparing new renderer and drawing it
     renderer = new THREE.WebGLRenderer({ antialias: false });
