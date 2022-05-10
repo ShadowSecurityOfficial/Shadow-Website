@@ -49,7 +49,7 @@ function main_init() {
     var fog = new THREE.Fog(0xFFFFFF, - 100, 50000);
 
     // preparing material
-    meshMaterial = new THREE.MeshShaderMaterial({
+    meshMaterial = new THREE.ShaderMaterial({
         uniforms: {
             'map': {type: 't', value:2, texture: texture},
             'fogColor' : {type: 'c', value: fog.color},
