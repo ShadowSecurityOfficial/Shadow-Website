@@ -31,7 +31,7 @@ function main_init() {
     var ctx = canvas.getContext('2d');
 
     // preparing camera
-    camera = new THREE.Camera(30, window.innerWidth / window.innerHeight, 1, 5000);
+    camera = new THREE.PerspectiveCamera(30, window.innerWidth / window.innerHeight, 1, 5000);
     camera.position.z = 6000;
 
     // preparing scene
