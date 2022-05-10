@@ -8,5 +8,3 @@ function reloadIt() {
         window.location = window.location.href + "?r";
     }
 }
-
-setTimeout('reloadIt()', 1000)();
