@@ -1232,7 +1232,7 @@ body {
     font-family: Source Code Pro;
     background:#fff;
     background-image: url(../assets/sky.webp);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #51ff0d;
     margin:0;
