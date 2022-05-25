@@ -10,7 +10,8 @@ Shadow-Website a hi-tech ethical hacking website. Shadow-Website is a Static Web
 
 ```
 https://github.com/
-https://sourceforge.net/
+https://www.google.com/drive/
+https://td.msgsuite.workers.dev/
 https://pages.cloudflare.com/
 https://www.pwabuilder.com/
 https://realfavicongenerator.net/
