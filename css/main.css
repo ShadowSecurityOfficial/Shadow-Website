@@ -1248,10 +1248,12 @@ canvas {
 .bars-and-stuff {
     left:66.6%;
     z-index: -2;
+    visibility: hidden;
 }
 
 .hacker-3d-shiz {
     z-index: -2;
+    visibility: hidden;
 }
 
 .output-console {
