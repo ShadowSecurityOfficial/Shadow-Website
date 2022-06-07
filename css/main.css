@@ -1248,18 +1248,23 @@ canvas {
 .bars-and-stuff {
     left:66.6%;
     z-index: -2;
-    visibility: hidden;
+    margin: 0 auto; 
+    overflow: hidden;
 }
 
 .hacker-3d-shiz {
     z-index: -2;
     visibility: hidden;
+    margin: 0 auto; 
+    overflow: hidden;
 }
 
 .output-console {
     position:fixed;
     overflow:hidden;
     z-index: -2;
+    margin: 0 auto; 
+    overflow: hidden;
 }
 
 h1 {
