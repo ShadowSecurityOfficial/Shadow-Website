@@ -9,20 +9,28 @@
 
 	#wrapper {
 		opacity: 1 !important;
+		margin: 0 auto; 
+    		overflow: hidden;
 	}
 
 /* Overlay */
 
 	#overlay {
 		opacity: 1 !important;
+		margin: 0 auto; 
+    		overflow: hidden;
 	}
 
 /* Header */
 
 	#header {
 		opacity: 1 !important;
+		margin: 0 auto; 
+    		overflow: hidden;
 	}
 
 		#header nav li {
 			opacity: 1 !important;
+			margin: 0 auto; 
+    			overflow: hidden;
 		}
