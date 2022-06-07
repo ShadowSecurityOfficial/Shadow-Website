@@ -1254,7 +1254,6 @@ canvas {
 
 .hacker-3d-shiz {
     z-index: -2;
-    visibility: hidden;
     margin: 0 auto; 
     overflow: hidden;
 }
